@@ -4,7 +4,7 @@ class AlignIt < Formula
   sha256 '63601c67e0d95f5d7c0afdba9e4e74b9d36d7850b0204c8bba096a4257afd7e9'
 
   depends_on 'cmake' => :build
-  depends_on 'CoryKornowicz/cheminformatics/open-babel'
+  depends_on 'CoryKornowicz/homebrew-cheminformatics/open-babel'
 
   def install
     args = std_cmake_args
