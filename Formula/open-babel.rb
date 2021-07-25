@@ -22,7 +22,7 @@ class OpenBabel < Formula
   depends_on 'cairo' => :recommended
   depends_on 'swig' => :build if build.with?('python@2') || build.with?('python') || build.with?('java')
   depends_on 'eigen'
-  depends_on 'mcs07/cheminformatics/inchi'
+  depends_on 'CoryKornowicz/homebrew-cheminformatics/inchi'
 
   def install
     args = std_cmake_args
