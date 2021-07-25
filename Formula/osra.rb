@@ -25,7 +25,7 @@ class Osra < Formula
   depends_on 'poppler'
   depends_on 'tesseract'
   depends_on 'gocr' => 'with-lib'
-  depends_on 'mcs07/cheminformatics/open-babel'
+  depends_on 'CoryKornowicz/cheminformatics/open-babel'
 
   if build.with? "ghostscript"
     depends_on 'graphicsmagick' => 'with-ghostscript'
