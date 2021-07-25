@@ -13,7 +13,6 @@ class Osra < Formula
   option 'with-ghostscript', 'Build with ghostscript support'
   option 'with-tesseract', 'Build with tesseract support'
 
-  depends_on :java => :optional
   depends_on 'freetype'
   depends_on 'libpng'
   depends_on 'libtiff'
